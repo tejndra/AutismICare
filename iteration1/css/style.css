@@ -1,0 +1,26 @@
+body {margin:0;}
+
+/*carousel style*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+/*carousel style*/
+
+/*bg color of text*/
+.highlight {
+  background: linear-gradient(to right,#fce4ed,#ffe8cc);
+}
+/*bg color of text*/
+
+/*scrollable text in container*/
+.container,
+.row {
+  overflow: hidden;
+  /*height: 100%;  used h-100 class instead*/
+}
+.scroll-col {
+  overflow: auto;
+  /*height: 100%;  used h-100 class instead*/
+}
+/*scrollable text in container*/
